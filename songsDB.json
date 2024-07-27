@@ -1,0 +1,44 @@
+{
+    "songs": [
+        {
+            "id": 1,
+            "songPlayer": "https://www.youtube.com/watch?v=lBRGAo6RrGU&ab_channel=LilWayne-Topic",
+            "name": "Let's Do It",
+            "artist": "Lil Wayne",
+            "album": "No Ceilings (The Mixtape)",
+            "genre": "Hip-Hop"
+        },
+        {
+            "id": 2,
+            "songPlayer": "https://www.youtube.com/watch?v=qd1Fxmng82M&ab_channel=MachelMontano-Topic",
+            "name": "Mr. Fete",
+            "artist": "Machel Mantano",
+            "album": "Double M",
+            "genre": "Soca"
+        },
+        {
+            "id": 3,
+            "songPlayer": "https://www.youtube.com/watch?v=rl3wjrdZslc&ab_channel=Jadakiss-Topic",
+            "name": "Death Wish",
+            "artist": "Jadakiss (feat. Lil Wayne)",
+            "album": "The Last Kiss",
+            "genre": "Hip-Hop"
+        },
+        {
+            "id": 4,
+            "songPlayer": "https://www.youtube.com/watch?v=q6koGAxbCcU&ab_channel=TropicalMedia",
+            "name": "Unknown Car",
+            "artist": "Prince Swanny",
+            "album": "Unknown Car",
+            "genre": "Trini-Bad Dancehall"
+        },
+        {
+            "id": 5,
+            "songPlayer": "https://www.youtube.com/watch?v=aFCTTcLq9H0&ab_channel=VybzKartel-Topic",
+            "name": "Clarks",
+            "artist": "Vybez Kartel (feat. Popcaan, & Gaza Slim)",
+            "album": "Remember Me",
+            "genre": "Dancehall"
+        }
+    ]
+}
