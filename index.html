@@ -2,10 +2,42 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" type="text/css" href="styles.css">
-        <script src="index.js"></script>
+        <script defer src="index.js"></script>
     </head>
     <body>
-        <p id="hidden-text">1: Lil Wayne 2: Eminem 3: Jay-Z 4: </p>
-        <h1>A List of Kyle's Favorite Rap Artists</h1>
+        <h1>Play-Dis</h1>
+        <h2>A Playlist For Your Own Convenience</h2>
+        <p><b>How This Works:</b> On this website you can make your own playlist by submitting a link from YouTube. 
+            Fill out the form below to add a song, and make sure to include the songs basic details.
+            To view the songs that were pre-added for you one by one, click the "Display Song" button below. 
+            However, if you are impatient, (like me), and would like to see all of the pre-added songs at once, 
+            click the "Display All Songs" button below.
+        </p>
+        <div id="all-elements">
+            <div id="display-songs-buttons">
+                <button type="button">Display Song</button>
+                <button type="button">Display All Songs</button>
+            </div>
+            <form id="add-songs">
+                <label for="song-link">Link to Song: </label>
+                <input type="text" id="song-link" name="song-link">
+
+                <label for="song-name">Song Name: </label>
+                <input type="text" id="song-name" name="song-name">
+
+                <label for="song-artist">Artist: </label>
+                <input type="text" id="song-artist" name="song-artist">
+
+                <label for="album-name">Album Name: </label>
+                <input type="text" id="album-name" name="album-name">
+
+                <label for="genre">Genre: </label>
+                <input type="text" id="genre" name="genre">
+
+            </form>
+            <div id="songs-list"></div>
+        </div>
+        
+        
     </body>
 </html>
