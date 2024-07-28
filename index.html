@@ -5,37 +5,37 @@
         <script defer src="index.js"></script>
     </head>
     <body>
-        <h1>Play-Dis</h1>
+        <h1>Play-Dis Playa</h1>
         <h2>A Playlist For Your Own Convenience</h2>
         <p><b>How This Works:</b> On this website you can make your own playlist by submitting a link from YouTube. 
-            Fill out the form below to add a song, and make sure to include the songs basic details.
-            To view the songs that were pre-added for you one by one, click the "Display Song" button below. 
-            However, if you are impatient, (like me), and would like to see all of the pre-added songs at once, 
-            click the "Display All Songs" button below.
+            Fill out the form below to add a song, and make sure to include <b>ALL </b>of the songs basic details.
+            We have five pre-added songs for you that we hope you enjoy. If you don't like it, don't be afraid to press the
+            "This song is trash button" You are also free to add as many songs as you like.
         </p>
         <div id="all-elements">
-            <div id="display-songs-buttons">
-                <button type="button">Display Song</button>
-                <button type="button">Display All Songs</button>
-            </div>
             <form id="add-songs">
                 <label for="song-link">Link to Song: </label>
-                <input type="text" id="song-link" name="song-link">
+                <input type="text" id="song-link" name="song-link" required>
 
                 <label for="song-name">Song Name: </label>
-                <input type="text" id="song-name" name="song-name">
+                <input type="text" id="song-name" name="song-name" required>
 
                 <label for="song-artist">Artist: </label>
-                <input type="text" id="song-artist" name="song-artist">
+                <input type="text" id="song-artist" name="song-artist" required>
 
                 <label for="album-name">Album Name: </label>
-                <input type="text" id="album-name" name="album-name">
+                <input type="text" id="album-name" name="album-name" required>
 
                 <label for="genre">Genre: </label>
-                <input type="text" id="genre" name="genre">
+                <input type="text" id="genre" name="genre" required>
+
+                <button type="button" id="add-song">Add New Song</button>
 
             </form>
-            <div id="songs-list"></div>
+            <div id="show-songs">
+                <ul id="songs-list"></ul>
+                
+            </div>
         </div>
         
         
