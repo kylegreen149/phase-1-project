@@ -8,9 +8,17 @@
         <h1>Play-Dis Playa</h1>
         <h2>A Playlist For Your Own Convenience</h2>
         <p><b>How This Works:</b> On this website you can make your own playlist by submitting a link from YouTube. 
-            Fill out the form below to add a song, and make sure to include <b>ALL </b>of the songs basic details.
-            We have five pre-added songs for you that we hope you enjoy. If you don't like it, don't be afraid to press the
+            Fill out the form below to add a song, and make sure to include <b>ALL </b>of the songs basic details. When adding
+            a song in the Link to Song input field, make sure to include this link: https://www.youtube.com/embed/ at the beginning 
+            to ensure that the song is properly embedded onto this site. We have five pre-added songs for you that we hope you enjoy. 
+            If you don't like it, don't be afraid to press the
             "This song is trash button" You are also free to add as many songs as you like.
+            If you like a song, press the "This song is fiya button". 
+            This will turn the songCard green, and when you come back later,
+            you'll remember that you loved the song. 
+            However, if you pressed the "This song is mid" button, the background of 
+            the song card will be yellow, letting you know later on that you think the song is ok, but won't give it the same amount
+            of listens as a song that you really enjoy.
         </p>
         <div id="all-elements">
             <form id="add-songs-form">
@@ -32,9 +40,11 @@
                 <button type="submit" id="add-new-song" value="submit">Add New Song</button>
 
             </form>
+            <br>
             <div id="show-songs">
-                <ul id="songs-list"></ul>
-                
+                <div id="songs-list">
+                    
+                </li>
             </div>
         </div>     
     </body>
